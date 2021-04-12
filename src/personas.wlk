@@ -1,6 +1,17 @@
-
 object olivia {
-	//TODO: implementar a Olivia
+	var gradoDeConcentracion = 6
+	
+	method recibeMasajes() {
+		gradoDeConcentracion = gradoDeConcentracion + 3 
+	}
+	
+	method discute() {
+		gradoDeConcentracion = gradoDeConcentracion - 1
+	}
+	
+	method gradoDeConcentracion() {
+		return gradoDeConcentracion
+	} 
 }
 
 
