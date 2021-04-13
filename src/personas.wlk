@@ -2,7 +2,8 @@ object olivia {
 
 	var gradoDeConcentracion = 6
 
-	method darseUnBanioDeVapor() { /* No pasa nada */ }
+	method darseUnBanioDeVapor() { /* No pasa nada */
+	}
 
 	method recibirMasajes() {
 		gradoDeConcentracion = gradoDeConcentracion + 3
